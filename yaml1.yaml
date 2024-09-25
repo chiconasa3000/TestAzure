@@ -49,7 +49,7 @@ stages:
           - task: AzureCLI@2
             displayName: 'Deploy'
             inputs:
-              azureSubscription: 'your_azure_subscription_name' # Replace with your Azure subscription name
+              azureSubscription: 'Azure for Students' # Replace with your Azure subscription name
               scriptType: 'bash'
               scriptLocation: 'inlineScript'
               inlineScript: |
